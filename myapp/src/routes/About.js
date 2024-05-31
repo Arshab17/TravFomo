@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '../components/Navbar'
 import Hero from '../components/Hero'
 import AboutImg from '../assets/night.jpg'
+import Footer from '../components/Footer'
 const About = () => {
   return (
   <>
@@ -13,6 +14,7 @@ const About = () => {
        
         btnClass = "hide"
       />
+      <Footer/>
 
   </>
   )

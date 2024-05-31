@@ -37,10 +37,11 @@
     display: flex;
     justify-content:space-between;
     z-index: -99;
+    
 }
 
 .image img{
-width: 49%;
+width: calc(50% - 5px);
 height: 350px;
 object-fit: cover;
 border-radius: 6px;

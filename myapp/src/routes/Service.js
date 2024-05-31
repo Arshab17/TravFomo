@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '../components/Navbar'
 import Hero from '../components/Hero'
 import serviceImg from '../assets/2.jpg'
+import Footer from '../components/Footer'
 const Service = () => {
   return (
     <>
@@ -13,6 +14,7 @@ const Service = () => {
    
     btnClass = "hide"
   />
+  <Footer/>
     </>
   )
 }
