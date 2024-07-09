@@ -28,12 +28,27 @@ const DestinationFilter = () => {
                 <i class="fa-solid fa-tag"></i>
             </div>
         </div>
+        <div className='adultsInput'>
+            <label htmlFor='adults'>Number of Adults:</label>
+            <div className='input flex'>
+                <input type='number' min='1' placeholder='1'/>
+                <i className="fa-solid fa-user"></i>
+            </div>
+        </div>
+        <div className='childrenInput'>
+            <label htmlFor='children'>Number of Children:</label>
+            <div className='input flex'>
+                <input type='number' min='0' placeholder='0'/>
+                <i className="fa-solid fa-child"></i>
+            </div>
+        </div>
         <div className='searchOption flex'>
             <div className="icon">
             <i class="fa-solid fa-filter"></i>
                 <span>More Filter</span>
             </div>
         </div>
+        
     </div>
   )
 }

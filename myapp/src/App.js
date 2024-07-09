@@ -5,6 +5,11 @@ import About from "./routes/About";
 import Service from "./routes/Service";
 import Contact from "./routes/Contact";
 import Navbar from "./components/Navbar";
+import React from 'react';
+import Signup from "./components/Signup";
+import Login from "./components/Login";
+import Details from "./components/Details";
+
 
 function App() {
   return (
@@ -14,8 +19,14 @@ function App() {
         <Route path="/about" element={<About/>} />
         <Route path="/service" element={<Service/>} />
         <Route path="/contact" element={<Contact/>} />
+        <Route path="/signup" element={<Signup/>} />
+        <Route path="/login" element={<Login/>} />
+        <Route path="/details" element={<Details/>} />
+
+
       </Routes>
-      <Navbar/>
+      {/* <Navbar/> */}
+      {/* <Signup/> */}
     </div>
   );
 }
